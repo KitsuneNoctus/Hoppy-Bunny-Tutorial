@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F75C00C248DE67E002F36C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C00B248DE67E002F36C4 /* AppDelegate.swift */; };
+		3F75C00E248DE67E002F36C4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C00D248DE67E002F36C4 /* GameScene.sks */; };
+		3F75C010248DE67E002F36C4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C00F248DE67E002F36C4 /* Actions.sks */; };
+		3F75C012248DE67E002F36C4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C011248DE67E002F36C4 /* GameScene.swift */; };
+		3F75C014248DE67E002F36C4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C013248DE67E002F36C4 /* GameViewController.swift */; };
+		3F75C017248DE67E002F36C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C015248DE67E002F36C4 /* Main.storyboard */; };
+		3F75C019248DE680002F36C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C018248DE680002F36C4 /* Assets.xcassets */; };
+		3F75C01C248DE680002F36C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C01A248DE680002F36C4 /* LaunchScreen.storyboard */; };
+		3F75C027248DE680002F36C4 /* hoppy_bunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C026248DE680002F36C4 /* hoppy_bunnyTests.swift */; };
+		3F75C032248DE680002F36C4 /* hoppy_bunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C031248DE680002F36C4 /* hoppy_bunnyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F75C023248DE680002F36C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F75C000248DE67E002F36C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F75C007248DE67E002F36C4;
+			remoteInfo = "hoppy-bunny";
+		};
+		3F75C02E248DE680002F36C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F75C000248DE67E002F36C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F75C007248DE67E002F36C4;
+			remoteInfo = "hoppy-bunny";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F75C008248DE67E002F36C4 /* hoppy-bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoppy-bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F75C00B248DE67E002F36C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F75C00D248DE67E002F36C4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3F75C00F248DE67E002F36C4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3F75C011248DE67E002F36C4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3F75C013248DE67E002F36C4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3F75C016248DE67E002F36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F75C018248DE680002F36C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F75C01B248DE680002F36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F75C01D248DE680002F36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F75C022248DE680002F36C4 /* hoppy-bunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoppy-bunnyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F75C026248DE680002F36C4 /* hoppy_bunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoppy_bunnyTests.swift; sourceTree = "<group>"; };
+		3F75C028248DE680002F36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F75C02D248DE680002F36C4 /* hoppy-bunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoppy-bunnyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F75C031248DE680002F36C4 /* hoppy_bunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoppy_bunnyUITests.swift; sourceTree = "<group>"; };
+		3F75C033248DE680002F36C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F75C005248DE67E002F36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C01F248DE680002F36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C02A248DE680002F36C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F75BFFF248DE67E002F36C4 = {
+			isa = PBXGroup;
+			children = (
+				3F75C00A248DE67E002F36C4 /* hoppy-bunny */,
+				3F75C025248DE680002F36C4 /* hoppy-bunnyTests */,
+				3F75C030248DE680002F36C4 /* hoppy-bunnyUITests */,
+				3F75C009248DE67E002F36C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F75C009248DE67E002F36C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F75C008248DE67E002F36C4 /* hoppy-bunny.app */,
+				3F75C022248DE680002F36C4 /* hoppy-bunnyTests.xctest */,
+				3F75C02D248DE680002F36C4 /* hoppy-bunnyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F75C00A248DE67E002F36C4 /* hoppy-bunny */ = {
+			isa = PBXGroup;
+			children = (
+				3F75C00B248DE67E002F36C4 /* AppDelegate.swift */,
+				3F75C00D248DE67E002F36C4 /* GameScene.sks */,
+				3F75C00F248DE67E002F36C4 /* Actions.sks */,
+				3F75C011248DE67E002F36C4 /* GameScene.swift */,
+				3F75C013248DE67E002F36C4 /* GameViewController.swift */,
+				3F75C015248DE67E002F36C4 /* Main.storyboard */,
+				3F75C018248DE680002F36C4 /* Assets.xcassets */,
+				3F75C01A248DE680002F36C4 /* LaunchScreen.storyboard */,
+				3F75C01D248DE680002F36C4 /* Info.plist */,
+			);
+			path = "hoppy-bunny";
+			sourceTree = "<group>";
+		};
+		3F75C025248DE680002F36C4 /* hoppy-bunnyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F75C026248DE680002F36C4 /* hoppy_bunnyTests.swift */,
+				3F75C028248DE680002F36C4 /* Info.plist */,
+			);
+			path = "hoppy-bunnyTests";
+			sourceTree = "<group>";
+		};
+		3F75C030248DE680002F36C4 /* hoppy-bunnyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F75C031248DE680002F36C4 /* hoppy_bunnyUITests.swift */,
+				3F75C033248DE680002F36C4 /* Info.plist */,
+			);
+			path = "hoppy-bunnyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F75C007248DE67E002F36C4 /* hoppy-bunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F75C036248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunny" */;
+			buildPhases = (
+				3F75C004248DE67E002F36C4 /* Sources */,
+				3F75C005248DE67E002F36C4 /* Frameworks */,
+				3F75C006248DE67E002F36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hoppy-bunny";
+			productName = "hoppy-bunny";
+			productReference = 3F75C008248DE67E002F36C4 /* hoppy-bunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F75C021248DE680002F36C4 /* hoppy-bunnyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F75C039248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunnyTests" */;
+			buildPhases = (
+				3F75C01E248DE680002F36C4 /* Sources */,
+				3F75C01F248DE680002F36C4 /* Frameworks */,
+				3F75C020248DE680002F36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F75C024248DE680002F36C4 /* PBXTargetDependency */,
+			);
+			name = "hoppy-bunnyTests";
+			productName = "hoppy-bunnyTests";
+			productReference = 3F75C022248DE680002F36C4 /* hoppy-bunnyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F75C02C248DE680002F36C4 /* hoppy-bunnyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F75C03C248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunnyUITests" */;
+			buildPhases = (
+				3F75C029248DE680002F36C4 /* Sources */,
+				3F75C02A248DE680002F36C4 /* Frameworks */,
+				3F75C02B248DE680002F36C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F75C02F248DE680002F36C4 /* PBXTargetDependency */,
+			);
+			name = "hoppy-bunnyUITests";
+			productName = "hoppy-bunnyUITests";
+			productReference = 3F75C02D248DE680002F36C4 /* hoppy-bunnyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F75C000248DE67E002F36C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Henry Calderon";
+				TargetAttributes = {
+					3F75C007248DE67E002F36C4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3F75C021248DE680002F36C4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3F75C007248DE67E002F36C4;
+					};
+					3F75C02C248DE680002F36C4 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3F75C007248DE67E002F36C4;
+					};
+				};
+			};
+			buildConfigurationList = 3F75C003248DE67E002F36C4 /* Build configuration list for PBXProject "hoppy-bunny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F75BFFF248DE67E002F36C4;
+			productRefGroup = 3F75C009248DE67E002F36C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F75C007248DE67E002F36C4 /* hoppy-bunny */,
+				3F75C021248DE680002F36C4 /* hoppy-bunnyTests */,
+				3F75C02C248DE680002F36C4 /* hoppy-bunnyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F75C006248DE67E002F36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F75C017248DE67E002F36C4 /* Main.storyboard in Resources */,
+				3F75C00E248DE67E002F36C4 /* GameScene.sks in Resources */,
+				3F75C019248DE680002F36C4 /* Assets.xcassets in Resources */,
+				3F75C01C248DE680002F36C4 /* LaunchScreen.storyboard in Resources */,
+				3F75C010248DE67E002F36C4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C020248DE680002F36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C02B248DE680002F36C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F75C004248DE67E002F36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F75C012248DE67E002F36C4 /* GameScene.swift in Sources */,
+				3F75C014248DE67E002F36C4 /* GameViewController.swift in Sources */,
+				3F75C00C248DE67E002F36C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C01E248DE680002F36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F75C027248DE680002F36C4 /* hoppy_bunnyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F75C029248DE680002F36C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F75C032248DE680002F36C4 /* hoppy_bunnyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F75C024248DE680002F36C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F75C007248DE67E002F36C4 /* hoppy-bunny */;
+			targetProxy = 3F75C023248DE680002F36C4 /* PBXContainerItemProxy */;
+		};
+		3F75C02F248DE680002F36C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F75C007248DE67E002F36C4 /* hoppy-bunny */;
+			targetProxy = 3F75C02E248DE680002F36C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F75C015248DE67E002F36C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F75C016248DE67E002F36C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F75C01A248DE680002F36C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F75C01B248DE680002F36C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F75C034248DE680002F36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F75C035248DE680002F36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F75C037248DE680002F36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunny/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunny";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F75C038248DE680002F36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunny/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunny";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F75C03A248DE680002F36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunnyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunnyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoppy-bunny.app/hoppy-bunny";
+			};
+			name = Debug;
+		};
+		3F75C03B248DE680002F36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunnyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunnyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoppy-bunny.app/hoppy-bunny";
+			};
+			name = Release;
+		};
+		3F75C03D248DE680002F36C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunnyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunnyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hoppy-bunny";
+			};
+			name = Debug;
+		};
+		3F75C03E248DE680002F36C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hoppy-bunnyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henrycalderon.hoppy-bunnyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hoppy-bunny";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F75C003248DE67E002F36C4 /* Build configuration list for PBXProject "hoppy-bunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75C034248DE680002F36C4 /* Debug */,
+				3F75C035248DE680002F36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F75C036248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75C037248DE680002F36C4 /* Debug */,
+				3F75C038248DE680002F36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F75C039248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunnyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75C03A248DE680002F36C4 /* Debug */,
+				3F75C03B248DE680002F36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F75C03C248DE680002F36C4 /* Build configuration list for PBXNativeTarget "hoppy-bunnyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F75C03D248DE680002F36C4 /* Debug */,
+				3F75C03E248DE680002F36C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F75C000248DE67E002F36C4 /* Project object */;
+}
