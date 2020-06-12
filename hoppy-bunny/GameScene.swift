@@ -143,6 +143,7 @@ class GameScene: SKScene {
         if spawnTimer >= 1.5 {
             
             /* Create a new obstacle by copying the source obstacle */
+//            print(obstacleSource)
             let newObstacle = obstacleSource.copy() as! SKNode
             obstacleLayer.addChild(newObstacle)
             
