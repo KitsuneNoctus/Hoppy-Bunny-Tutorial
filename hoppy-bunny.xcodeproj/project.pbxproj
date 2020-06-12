@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F2B27D92491BFA4009EA114 /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B27D82491BFA4009EA114 /* Hero.sks */; };
 		3F4E6B7C24934779000F1E30 /* extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E6B7B24934779000F1E30 /* extend.swift */; };
+		3F4E6B7E24934D63000F1E30 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E6B7D24934D63000F1E30 /* Obstacle.sks */; };
 		3F75C00C248DE67E002F36C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75C00B248DE67E002F36C4 /* AppDelegate.swift */; };
 		3F75C00E248DE67E002F36C4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C00D248DE67E002F36C4 /* GameScene.sks */; };
 		3F75C010248DE67E002F36C4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75C00F248DE67E002F36C4 /* Actions.sks */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		3F2B27D82491BFA4009EA114 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
 		3F4E6B7B24934779000F1E30 /* extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extend.swift; sourceTree = "<group>"; };
+		3F4E6B7D24934D63000F1E30 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 		3F75C008248DE67E002F36C4 /* hoppy-bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoppy-bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F75C00B248DE67E002F36C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F75C00D248DE67E002F36C4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				3F4E6B7B24934779000F1E30 /* extend.swift */,
 				3F75C00F248DE67E002F36C4 /* Actions.sks */,
 				3F75C011248DE67E002F36C4 /* GameScene.swift */,
+				3F4E6B7D24934D63000F1E30 /* Obstacle.sks */,
 				3F2B27D82491BFA4009EA114 /* Hero.sks */,
 				3F75C013248DE67E002F36C4 /* GameViewController.swift */,
 				3F75C015248DE67E002F36C4 /* Main.storyboard */,
@@ -250,6 +253,7 @@
 				3F2B27D92491BFA4009EA114 /* Hero.sks in Resources */,
 				3F75C01C248DE680002F36C4 /* LaunchScreen.storyboard in Resources */,
 				3F75C010248DE67E002F36C4 /* Actions.sks in Resources */,
+				3F4E6B7E24934D63000F1E30 /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
